@@ -1,0 +1,221 @@
+@media screen and (min-width: 900px) {
+body {
+  margin: 0;
+  background: url(http://www.fuw.edu.pl/aw2p2/misc/konpol/foto/Fsg171_1.jpg);
+   background-size: 100%;
+   no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+.text{
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  //position: relative;
+  background: rgba(5,5,5,.4);
+  color: white;
+  margin: 0rem 2rem 2rem 2rem;
+}
+.menu { 
+  top: -15px;
+  font-weight:bold; 
+  padding: 0rem 1rem 0rem 1rem;
+  width: 10%;
+  text-align: center;
+}
+header{
+  display:none;
+  font-weight:bold; 
+  top: -15px;
+  padding: 0rem 2rem 0rem 2rem;
+  width: 45%;
+  float: left;
+}
+.headers{
+  float:left;
+  text-align:center;
+}
+.header0{
+  width:10%;
+}
+.header1{
+  width:15%;  
+}
+.header3{
+  width:20%;
+}
+.header2{
+  width:20%;
+}
+.header4{
+  width:35%;
+}
+.nav-text{
+  color:white;
+  text-decoration:none;
+}
+.nav-text:hover{
+  text-decoration:underline;
+}
+.main-text { 
+  font-weight:100;
+  top: 0px;
+  padding: 0rem 2rem 1rem 2rem;
+  width: 45%;
+  float: left;
+}
+.about{
+  display:none;
+}
+.address{
+  display:none;
+}
+.contact{
+  display:none;
+}
+.consult{
+  display:none;
+}
+h1 {
+  font-size: 2rem;
+  letter-spacing: .1rem;
+}
+.signature {
+  text-align:right;
+  font-style:italic;
+}
+.simple-text {
+  text-align: justify;
+  color:white;
+}
+.form {
+  display:none;
+  font-weight:100; 
+  top: -25px;
+  padding: 1rem 2rem 1rem 2rem;
+  width: 35%;
+  float: left;  
+}
+.button{
+  text-decoration:underline;  
+}
+.pop-up {
+  padding: 1rem 2rem 1rem 2rem;
+  width: 37%; 
+}
+textarea{
+    width: 70%
+  }
+}
+@media screen and (max-width: 900px) {
+body {
+  margin: 0;
+  background: url(http://www.fuw.edu.pl/aw2p2/misc/konpol/foto/Fsg171_1.jpg);
+   background-size: 100%;
+   no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+.text{
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  position: relative;
+  background: rgba(5,5,5,.4);
+  color: white;
+  margin: 0rem 2rem 2rem 2rem;
+}
+.menu { 
+  top: -15px;
+  width: 10%;
+  font-weight:bold; 
+  padding: 0rem 1rem 0rem 1rem;
+  text-align: center;
+}
+header{
+  display:none;
+  font-weight:bold; 
+  width: 70%;
+  padding: 0rem 2rem 0rem 2rem;
+  float: left;
+  white-space:nowrap;
+}
+.head-mob-unit{
+  top: -15px;
+  margin-bottom: 0rem;
+  height: 35px;
+ }
+.headers{
+  float:left;
+  text-align:center;
+}
+.header0{
+  width:45%;
+}
+.header1{
+  width:90%;  
+}
+.header3{
+  width:90%;
+}
+.header2{
+  width:45%;
+}
+.header4{
+  width:90%;
+  height: 55px;
+}
+.nav-text{
+  color:white;
+  text-decoration:none;
+}
+.nav-text:hover{
+  text-decoration:underline;
+}
+.main-text { 
+  margin-top: 3rem;
+  font-weight:100;
+  top: 0px;
+  padding: 0rem 2rem 1rem 2rem;
+  width: 70%;
+  float: left;
+}
+.about{
+  display:none;
+}
+.address{
+  display:none;
+}
+.contact{
+  display:none;
+}
+.consult{
+  display:none;
+}
+h1 {
+  font-size: 2rem;
+  letter-spacing: .1rem;
+}
+.signature {
+  text-align:right;
+  font-style:italic;
+}
+.simple-text {
+  text-align: justify;
+  color:white;
+}
+.button{
+  text-decoration:underline;  
+}
+.form {
+  display:none;
+  font-weight:100; 
+  top: -25px;
+  padding: 1rem 2rem 1rem 2rem;
+  width: 35%;
+  float: left;  
+}
+textarea{
+    width: 90%;
+  }
+}
